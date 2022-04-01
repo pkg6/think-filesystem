@@ -1,0 +1,34 @@
+{
+  "name": "qmister/think-filesystem-driver",
+  "description": "oss cos qiniu sftp driver for think-filesystem",
+  "license": "MIT",
+  "homepage": "https://github.com/qmister/think-filesystem-driver",
+  "type": "think-extend",
+  "keywords": [
+    "think-filesystem",
+    "oss",
+    "qiniu",
+    "sftp",
+    "ftp"
+  ],
+  "require": {
+    "php": ">7.2"
+  },
+  "require-dev": {
+    "topthink/framework": "^6.0",
+    "xxtime/flysystem-aliyun-oss": "^1.5",
+    "overtrue/flysystem-cos": "^2.1",
+    "overtrue/flysystem-qiniu": "^1.0",
+    "league/flysystem-sftp": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qmister\\think\\filesystem\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Qmister\\think\\filesystem\\Tests\\": "tests/"
+    }
+  }
+}
