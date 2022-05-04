@@ -27,6 +27,6 @@ class Github extends Driver
 
     public function addPlugin()
     {
-        $this->filesystem->addPlugin(new \Qmister\flysystem\github\Plugins\FileUrl());
+        $this->filesystem->addPlugin(new \whereof\flysystem\github\Plugins\FileUrl());
     }
 }
