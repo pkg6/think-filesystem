@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "tp5er\\think\\filesystem\\": "src"
+      "think\\filesystem\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "tp5er\\think\\filesystem\\Tests\\": "tests/"
+      "think\\filesystem\\Tests\\": "tests/"
     }
   }
 }
