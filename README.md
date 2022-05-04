@@ -92,7 +92,7 @@ composer require tp5er/think-filesystem
 > 安装驱动 ` composer require Qmister/flysystem-github ^1.0`
 
 ~~~
-'sftp' => [
+'github' => [
     'type'     => 'github',
     'token'     => 'token',
     'username'     => 'username',
