@@ -1,21 +1,13 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-30 14:31
- */
 
-namespace Qmister\think\filesystem;
+
+namespace think\filesystem\driver;
+
 
 use League\Flysystem\AdapterInterface;
 use Overtrue\Flysystem\Qiniu\QiniuAdapter;
 use think\filesystem\Driver;
 
-/**
- * Class Qiniu.
- *
- * @author zhiqiang
- */
 class Qiniu extends Driver
 {
     /**

@@ -1,8 +1,8 @@
 {
-  "name": "qmister/think-filesystem-driver",
+  "name": "qmister/think-filesystem",
   "description": "oss cos qiniu sftp driver for think-filesystem",
   "license": "MIT",
-  "homepage": "https://github.com/qmister/think-filesystem-driver",
+  "homepage": "https://github.com/tp5er/think-filesystem",
   "type": "think-extend",
   "keywords": [
     "think-filesystem",
@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Qmister\\think\\filesystem\\": "src"
+      "tp5er\\think\\filesystem\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Qmister\\think\\filesystem\\Tests\\": "tests/"
+      "tp5er\\think\\filesystem\\Tests\\": "tests/"
     }
   }
 }

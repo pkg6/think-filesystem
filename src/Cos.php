@@ -1,21 +1,12 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-30 14:24
- */
+namespace think\filesystem\driver;
 
-namespace Qmister\think\filesystem;
 
 use League\Flysystem\AdapterInterface;
 use Overtrue\Flysystem\Cos\CosAdapter;
 use think\filesystem\Driver;
 
-/**
- * Class Cos.
- *
- * @author zhiqiang
- */
+
 class Cos extends Driver
 {
     /**

@@ -1,20 +1,10 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-31 01:33
- */
-
-namespace Qmister\think\filesystem;
+namespace think\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
 use think\filesystem\Driver;
 
-/**
- * Class Ftp.
- *
- * @author zhiqiang
- */
+
 class Ftp extends Driver
 {
     /**

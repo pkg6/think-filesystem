@@ -1,23 +1,15 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-30 14:16
- */
 
 declare(strict_types=1);
 
-namespace Qmister\think\filesystem;
+namespace think\filesystem\driver;
+
 
 use League\Flysystem\AdapterInterface;
 use think\filesystem\Driver;
 use Xxtime\Flysystem\Aliyun\OssAdapter;
 
-/**
- * Class Oss.
- *
- * @author zhiqiang
- */
+
 class Oss extends Driver
 {
     /**

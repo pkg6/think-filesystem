@@ -1,21 +1,12 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-30 16:09
- */
+namespace think\filesystem\driver;
 
-namespace Qmister\think\filesystem;
 
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Sftp\SftpAdapter;
 use think\filesystem\Driver;
 
-/**
- * Class Sftp.
- *
- * @author zhiqiang
- */
+
 class Sftp extends Driver
 {
     /**

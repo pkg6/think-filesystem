@@ -1,15 +1,9 @@
 <?php
-/*
- * Desc: 
- * User: zhiqiang
- * Date: 2021-11-02 17:45
- */
-
-namespace Qmister\think\filesystem;
+namespace think\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
 use think\filesystem\Driver;
-use Qmister\flysystem\github\GithubAdapter;
+use whereof\flysystem\github\GithubAdapter;
 
 /**
  * Class Github
