@@ -3,7 +3,7 @@
 ## 安装
 
 ~~~~
-composer require tp5er/think-filesystem-driver
+composer require tp5er/think-filesystem
 ~~~~
 
 
