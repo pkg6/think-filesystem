@@ -1,5 +1,5 @@
 {
-  "name": "qmister/think-filesystem",
+  "name": "tp5er/think-filesystem",
   "description": "oss cos qiniu sftp driver for think-filesystem",
   "license": "MIT",
   "homepage": "https://github.com/tp5er/think-filesystem",
