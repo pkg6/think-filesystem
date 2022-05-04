@@ -23,12 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "think\\filesystem\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "think\\filesystem\\Tests\\": "tests/"
+      "think\\filesystem\\driver\\": "src"
     }
   }
 }
