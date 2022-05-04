@@ -3,7 +3,7 @@
 ## 安装
 
 ~~~~
-composer require Qmister/think-filesystem-driver
+composer require tp5er/think-filesystem-driver
 ~~~~
 
 
@@ -13,7 +13,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'oss' => [
-    'type'         => \Qmister\think\filesystem\Oss::class,
+    'type'         => 'oss',
     'credentials'=>[//若为false,则使用函数计算 runtime context提供的 credentials
         'accessId'     => '******',
         'accessSecret' => '******',
@@ -30,7 +30,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'cos' => [
-    'type'            => \Qmister\think\filesystem\Cos::class ,
+    'type'            => 'cos',
     'region'          => '***', //bucket 所属区域 英文
     'appId'           => '***', // 域名中数字部分
     'secretId'        => '***',
@@ -51,7 +51,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'qiniu' => [
-    'type'            => \Qmister\think\filesystem\Qiniu::class ,
+    'type'            => 'qiniu' ,
     'accessKey' => '******',
     'secretKey' => '******',
     'bucket'    => 'bucket',
@@ -65,7 +65,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'sftp' => [
-    'type'     => \Qmister\think\filesystem\Sftp::class,
+    'type'     => 'sftp',
     'host'     => '127.0.0.1',
     'port'     => 22,
     'username' => 'root',
@@ -79,7 +79,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'ftp' => [
-  'type'     => \Qmister\think\filesystem\Ftp::class,
+  'type'     => 'ftp',
   'host' => 'ftp.example.com',
   'username' => 'username',
   'password' => 'password',
@@ -93,7 +93,7 @@ composer require Qmister/think-filesystem-driver
 
 ~~~
 'sftp' => [
-    'type'     => \Qmister\think\filesystem\Github::class,
+    'type'     => 'github',
     'token'     => 'token',
     'username'     => 'username',
     'repository'     => 'repository',
