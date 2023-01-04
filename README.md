@@ -86,16 +86,3 @@ composer require tp5er/think-filesystem
   'root' => '/path/to/root',
 ],
 ~~~
-
-## GitHub
-
-> 安装驱动 ` composer require Qmister/flysystem-github ^1.0`
-
-~~~
-'github' => [
-    'type'     => 'github',
-    'token'     => 'token',
-    'username'     => 'username',
-    'repository'     => 'repository',
-],
-~~~
