@@ -17,7 +17,7 @@ class Oss extends Driver
     protected function createAdapter(): FilesystemAdapter
     {
         $config = [
-            'bucket'   => $this->config['bucket']，
+            'bucket'   => $this->config['bucket'],
             'endpoint' => $this->config['endpoint'],
         ];
         if (empty($this->config['credentials'])) {
